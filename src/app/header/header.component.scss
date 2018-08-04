@@ -2,10 +2,9 @@
 .header {
     height: 70px;
     width: 100%;
-    // border-bottom: solid 1px #777777;
     display: flex;
     background-color: #F5F5F5;
-    box-shadow: 0 4px 2px -2px #D1D1D1;
+    box-shadow: 0 4px 2px -2px #D4D4D4;
     
     & h1 {
         margin-left: 40px;
@@ -55,10 +54,11 @@
 }
 
 .shadow {
-    position: fixed;
-    width: 100%;
+    position: absolute;
+    width: calc(100% + 30px);
     height: 100%;
     top: 70px;
     background-color: black;
     opacity: 0.5;
+    z-index: 1;
 }

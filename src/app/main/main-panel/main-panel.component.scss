@@ -1,0 +1,41 @@
+
+.col {
+    height: 100%; 
+    width: calc(100% - 219px);
+    background-color: #E5E5E5;
+    position: absolute; 
+}
+
+.card {
+    &-main {
+        margin: 40px 0 0 27px;
+        width: calc(100% - 50px);
+
+        &-header {
+            margin:0;
+            padding:7px 0 7px 15px;
+        }
+    }
+
+    &-list {
+        border-radius: 10px;
+        &-header {
+            color: white;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            background-color: #333333;
+        }
+    }
+}
+
+.tab {
+    &-details {
+        margin: 20px 30px 30px 30px;
+
+        & h3 {
+            font-weight: 400;
+            margin-bottom: 20px; 
+        }
+
+    }
+}

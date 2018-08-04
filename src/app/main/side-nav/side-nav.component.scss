@@ -1,16 +1,11 @@
 
-.side-nav {
-    top: 70px;  
-    width: 320px;
-    border-right: solid 1px gray;
-    position: absolute;
-    bottom: 0;
+.col {
+    width: 250px;
+    height: 100%;
 }
 
-
-.nav {
-    margin-top: 40px;
-
+.side-nav {
+    margin-top: 35px;
     &-link {
         margin: 1px;
 

@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { SideNavComponent } from './main/side-nav/side-nav.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { MainPanelComponent } from './main-panel/main-panel.component';
+import { MainPanelComponent } from './main/main-panel/main-panel.component';
 
 @NgModule({
   declarations: [

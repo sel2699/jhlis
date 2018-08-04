@@ -1,7 +1,7 @@
-<div class = "col-lg-2 col-md-2 col-xl-2 side-nav">
-<div class = "nav">
-  <p class = "nav-link" *ngFor = "let item of sideNavItems" id = "nav-link-{{item.id}}">
-    <button class = "btn nav-link-btn" (click) = "changePanel()">{{item.name}}</button>
+<div class = "col">
+<div class = "side-nav">
+  <p class = "side-nav-link" *ngFor = "let item of sideNavItems" id = "side-nav-link-{{item.id}}">
+    <button class = "btn side-nav-link-btn" (click) = "changePanel()">{{item.name}}</button>
   </p>
 </div>
 </div>
