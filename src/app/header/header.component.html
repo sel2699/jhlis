@@ -1,0 +1,21 @@
+<div class = "row">
+    <div class = "header">
+        <h1>JHLIS</h1>
+        <div class = "header-user">
+            <button class = "btn btn-user" (click) = "isToggled()">Hello, {{userType}} {{name}}</button>
+        </div>
+
+        <span *ngIf = "toggled" class = "shadow"></span>
+        <div *ngIf = "toggled" class = "panel">
+                
+            <div class = "card panel-card">
+                <div class = "card-body">
+                    test
+                </div>
+                <div class = "card-footer">
+                    test
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

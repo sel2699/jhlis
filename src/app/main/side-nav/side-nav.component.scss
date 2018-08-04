@@ -1,0 +1,25 @@
+
+.side-nav {
+    top: 70px;  
+    width: 320px;
+    border-right: solid 1px gray;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.nav {
+    margin-top: 40px;
+
+    &-link {
+        margin: 1px;
+
+        &-btn{
+            outline: 0;
+            border: 0;
+            background-color: transparent;
+            font-size: 14px;
+            text-align: left;
+        }
+    }
+}
